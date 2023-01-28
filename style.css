@@ -1,0 +1,180 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(243, 243, 243);
+}
+
+.container {
+    display: flex;
+}
+#container-main {
+    flex-direction: row;
+    height:100%;
+}
+
+/*
+
+IMG CSS.
+
+*/
+#container-image{
+    justify-content: center;
+    width: 700px;
+
+}
+#container-imageover {
+    position: absolute;
+    width: inherit;
+    height: 220px;
+    align-self: center;
+    justify-content: center;
+    background-color: rgba(19, 19, 19, 0.623);
+
+}
+#img-big {
+    width: inherit;
+}
+#img-over{
+    width:250px;
+}
+#p-image-by{
+    position: absolute;
+    align-self: flex-end;
+    color: antiquewhite;
+}
+
+/*
+
+FORM CSS.
+
+*/
+
+#container-form {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#container-header {
+    flex-direction: column;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 20px;
+    font-family: 'pagul';
+
+
+}
+
+#container-the-form {
+    box-shadow: 0px 7px 12px -15px rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.945);
+    height: 320px;
+    flex-direction: column;
+}
+
+h2 {
+    font-weight: 600;
+    margin-left: 25px;
+    font-family: 'pagul';
+
+}
+#container-form-one {
+    margin-left: -20px;
+}
+
+
+li{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+label {
+    display: inline-block;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 17px;
+    font-family: 'Rachana';
+}
+
+input {
+    margin-top: -4px;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    margin-right: 2px;
+}
+
+input:focus {
+    border: 1px solid rgb(34, 34, 34);
+    box-shadow: 0px 5px 10px -5px black;
+    outline: none;
+
+}
+
+.user-pass{
+    border: 1px solid rgb(247, 124, 24);
+    
+}
+
+.user-pass-match{
+    border: 1px solid rgb(117, 252, 100);
+    
+}
+
+#p-user-password {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+
+/*
+
+    Submit CSS.
+
+*/
+
+
+#container-button-submit{
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#btn-create-account {
+    width: 200px;
+    height: 70px;
+    font-size: 1rem;
+    background-color: rgb(31, 212, 188);
+    box-shadow: 0px 4px 10px -5px rgb(0, 47, 59);
+    border: none;
+    border-radius: 10px;
+    
+}
+
+#btn-create-account:active {
+    font-size: 14px;
+    background-color: rgb(86, 167, 167);
+}
+
+#btn-create-account:hover {
+    cursor: pointer;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(6, 124, 202);
+    font-style: italic;
+}
